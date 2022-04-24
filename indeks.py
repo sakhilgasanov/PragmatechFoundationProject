@@ -1,4 +1,4 @@
 s="qaraqoyun"
-s[4]
+s[0]
 "q"
 print(s[4])
