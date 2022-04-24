@@ -3,5 +3,7 @@ if a>0:
     print("deyer mwsbetdir")
 elif a<0:
     print("deyer menfidir")
-else:
+elif a==0:
     print("deyer sifirdir")
+else:
+    print("siz eded daxil etmemisiniz")
