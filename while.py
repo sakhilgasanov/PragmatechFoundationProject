@@ -19,16 +19,30 @@
 #        print(giris)
 
 
-yukseklik = int(input("agacin yuksekliyini daxil edin : "))
-setir = 0
-while setir < yukseklik:
-    saygac = 0 
-    while saygac < yukseklik - setir:
+#yukseklik = int(input("agacin yuksekliyini daxil edin : "))
+#setir = 0
+#while setir < yukseklik:
+#    saygac = 0 
+#    while saygac < yukseklik - setir:
+#        print(end=" ")
+#        saygac += 1
+#    saygac = 0
+#    while saygac < 2*setir +1:
+#        print(end="*")
+#        saygac += 1
+#    print()
+#    setir +=1
+    
+derinlik=int(input("derinliyi daxil edin : "))
+setir=0
+while setir<derinlik:
+    saygac=0
+    while saygac<derinlik+setir:
         print(end=" ")
-        saygac += 1
-    saygac = 0
-    while saygac < 2*setir +1:
+        saygac+=1
+    saygac=0
+    while saygac<2*setir+1:
         print(end="*")
-        saygac += 1
+        saygac+=1
     print()
-    setir +=1
+    setir+=1
