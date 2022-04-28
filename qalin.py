@@ -1,7 +1,7 @@
 try:
     sayim=0
     qalinherfler=["a", "ı", "o", "u"]
-    soz=str(input("sozu daxil edin : "))
+    soz=(input("sozu daxil edin : "))
     for herf in soz:
         if herf in qalinherfler:
             sayim+=1
