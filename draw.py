@@ -1,8 +1,17 @@
 import tkinter as tk
 pencere=tk.Tk()
-pencere.geometry('2000x70')
-etiket=tk.Label(text='Emeliyyat sistemi')
+def cixis():
+     etiket['text']='Gorusenedek'
+     duyme['text']='Gozleyin'
+     duyme['state']='disabled'
+     pencere.after(2000, pencere.destroy)
+     
+etiket=tk.Label(text='Esas ekran')
 etiket.pack()
-duyme=tk.Button(text='Klikleyin')
+
+duyme=tk.Button(text='cixis', command=cixis)
 duyme.pack()
+
+pencere.protocol('WM_DELETE_WINDOW', cixis)
+
 pencere.mainloop()
